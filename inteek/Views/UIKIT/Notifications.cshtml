@@ -1,0 +1,89 @@
+﻿@{
+    ViewBag.Title = "Notifications";
+}
+
+<!-- notifications -->
+<div class="page page-ui-notifications">
+
+    <ol class="breadcrumb breadcrumb-small">
+        <li>UI Kit</li>
+        <li class="active"><a href="ui.notifications.html">Notifications</a></li>
+    </ol>
+
+    <div class="page-wrap">
+
+        <!-- row -->
+        <div class="row">
+            <!-- alerts -->
+            <div class="col-md-6 col-sm-12">
+                <div class="panel panel-default panel-hovered panel-stacked mb30" ng-controller="AlertDemoCtrl">
+                    <div class="panel-heading">Alerts</div>
+                    <div class="panel-body">
+                        <div class="alert alert-warning">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div><strong>Warning:</strong> Backup all your drive.</div>
+                        </div>
+                        <div class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div>Oh snap! Change a few things up and try submitting again.</div>
+                        </div>
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div>Well done! You successfully read this important alert message.</div>
+                        </div>
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div><strong>Info:</strong> You have got mail.</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- #end alerts -->
+
+            <div class="col-md-6 col-sm-12">
+                <div class="panel panel-default panel-hovered panel-stacked mb30">
+                    <div class="panel-heading">Labels</div>
+                    <div class="panel-body">
+                        <div class="clearfix mb15">
+                            <p>Add the <code>.label</code> class with optional color class to create a label.</p>
+                            <label class="label label-default">Default</label>
+                            <label class="label label-primary">Primary</label>
+                            <label class="label label-success">Success</label>
+                            <label class="label label-info">Info</label>
+                            <label class="label label-warning">Warning</label>
+                            <label class="label label-danger">Danger</label>
+                            <label class="label label-pink">Pink</label>
+                            <label class="label label-purple">Purple</label>
+                        </div>
+                        <div class="clearfix">
+                            <p>Add the <code>.badge</code> class on inline element with optional color class to create a badge.</p>
+                            <span class="badge badge-primary badge-xs">new</span>
+                            <span class="badge badge-danger badge-xs circle">3</span>
+                            <span class="badge badge-info badge-xs flat">flat</span>
+                            <span class="badge badge-warning badge-xs">5</span>
+                            <span class="badge badge-success badge-xs">10</span>
+                            <span class="badge badge-pink">size</span>
+                            <span class="badge badge-purple badge-xs">20</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #end row -->
+
+    </div> <!-- #end page-wrap -->
+</div>
+<!-- #end notifications -->
+
+
+<!-- Scripts-->
+@Scripts.Render("~/scripts/app.js")

@@ -1,0 +1,123 @@
+﻿@{
+    ViewBag.Title = "ProgressBars";
+}
+
+
+<div class="page page-ui-progressBars">
+
+    <ol class="breadcrumb breadcrumb-small">
+        <li>UI Kit</li>
+        <li class="active"><a href="#ui.progress-bars.html">Progress Bars</a></li>
+    </ol>
+
+    <div class="page-wrap">
+
+        <div class="row">
+            <!-- colors -->
+            <div class="col-sm-4">
+                <div class="panel panel-default mb30 panel-hovered panel-stacked">
+                    <div class="panel-heading">Colors</div>
+                    <div class="panel-body">
+                        <div class="progress progress-xs">
+                            <div class="progress-bar progress-bar-primary" style="width:55%"></div>
+                        </div>
+                        <div class="progress progress-xs">
+                            <div class="progress-bar progress-bar-success" style="width:55%"></div>
+                        </div>
+                        <div class="progress progress-xs">
+                            <div class="progress-bar progress-bar-info" style="width:55%"></div>
+                        </div>
+                        <div class="progress progress-xs">
+                            <div class="progress-bar progress-bar-warning" style="width:55%"></div>
+                        </div>
+                        <div class="progress progress-xs">
+                            <div class="progress-bar progress-bar-danger" style="width:55%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sizes -->
+            <div class="col-sm-4">
+                <div class="panel panel-default mb30 panel-hovered panel-stacked">
+                    <div class="panel-heading">Sizes</div>
+                    <div class="panel-body">
+                        <div class="progress progress-xxs">
+                            <div class="progress-bar progress-bar-primary" style="width:55%"></div>
+                        </div>
+                        <div class="progress progress-xs">
+                            <div class="progress-bar progress-bar-success" style="width:55%"></div>
+                        </div>
+                        <div class="progress progress-sm">
+                            <div class="progress-bar progress-bar-info" style="width:55%"></div>
+                        </div>
+                        <div class="progress progress-rounded">
+                            <div class="progress-bar progress-bar-danger" style="width:55%"></div>
+                        </div>
+                        <div class="progress progress-sm progress-rounded">
+                            <div class="progress-bar progress-bar-warning" style="width:55%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-4">
+                <div class="panel panel-default panel-hovered panel-stacked">
+                    <div class="panel-heading">Variations</div>
+                    <div class="panel-body">
+                        <!-- progress-stripped (active) -->
+                        <div class="progress-striped active progress-sm progress">
+                            <div class="progress-bar progress-bar-danger" style="width:80%"></div>
+                        </div>
+                        <!-- progress stripped -->
+                        <div class="progress-striped progress" value="45" type="primary">
+                            <div class="progress-bar progress-bar-primary" style="width: 45%;"><span>45%</span></div>
+                        </div>
+                        <!-- progress stacked -->
+                        <div class="progress-xs progress">
+                            <div class="progress-bar progress-bar-primary" style="width: 20%;"></div>
+                            <div class="progress-bar progress-bar-success" style="width: 15%;"></div>
+                            <div class="progress-bar progress-bar-info" style="width: 20%;"></div>
+                            <div class="progress-bar progress-bar-warning" style="width: 30%;"></div>
+                            <div class="progress-bar progress-bar-danger" style="width: 15%;"></div>
+                        </div>
+                        <!-- progress stacked (medium) -->
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-primary" style="width: 20%;">
+                                <span>20%</span>
+                            </div>
+                            <div class="progress-bar progress-bar-success" style="width: 15%;">
+                                <span>15%</span>
+                            </div>
+                            <div class="progress-bar progress-bar-info" style="width:20%">
+                                <span>20%</span>
+                            </div>
+                            <div class="progress-bar progress-bar-warning" style="width: 30%;">
+                                <span>30%</span>
+                            </div>
+                            <div class="progress-bar progress-bar-danger" style="width: 15%;">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                        <!-- progress stripped (stacked) -->
+                        <div class="progress-striped active progress-sm progress">
+                            <div class="progress-bar progress-bar-primary" style="width: 20%;"></div>
+                            <div class="progress-bar progress-bar-success" style="width: 15%;"></div>
+                            <div class="progress-bar progress-bar-info" style="width: 20%;"></div>
+                            <div class="progress-bar progress-bar-warning" style="width: 30%;"></div>
+                            <div class="progress-bar progress-bar-danger" style="width: 15%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- #page-wrap -->
+
+
+</div>
+
+
+<!-- Scripts-->
+@Scripts.Render("~/scripts/app.js")

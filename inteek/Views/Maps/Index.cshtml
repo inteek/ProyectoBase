@@ -1,0 +1,77 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="page page-maps-google">
+
+    <ol class="breadcrumb breadcrumb-small">
+        <li>Maps</li>
+        <li class="active"><a href="gmap.html">Google Map</a></li>
+    </ol>
+
+
+    <div class="page-wrap">
+
+        <!-- row -->
+        <div class="row">
+            <!-- Basic -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Basic</div>
+                    <div class="panel-body">
+                        <div id="gmap01" style="height: 300px"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- With Icon -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">With Marker</div>
+                    <div class="panel-body">
+                        <div id="gmap02" style="height: 300px"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Street View -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Street View</div>
+                    <div class="panel-body" id="street-view">
+                        <div id="gmap03" style="height: 300px"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Shape -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">With Shape</div>
+                    <div class="panel-body">
+                        <div id="gmap04" style="height: 300px"></div>
+                        <map zoom="11" center="[40.74, -74.18]">
+                            <shape id="polyline" name="polyline" geodesic="true" stroke-color="#FF0000" stroke-opacity="1.0" stroke-weight="2" path="[[40.74,-74.18],[40.64,-74.10],[40.54,-74.05],[40.44,-74]]"></shape>
+                            <shape id="polygon" name="polygon" stroke-color="#FF0000" stroke-opacity="1.0" stroke-weight="2"
+                                   paths="[[40.74,-74.18],[40.64,-74.18],[40.84,-74.08],[40.74,-74.18]]"></shape>
+                            <shape id="rectangle" name="rectangle" stroke-color='#FF0000' stroke-opacity="0.8" stroke-weight="2"
+                                   bounds="[[40.74,-74.18], [40.78,-74.14]]" editable="true"></shape>
+                            <shape id="circle" name="circle" stroke-color='#FF0000' stroke-opacity="0.8" stroke-weight="2"
+                                   center="[40.70,-74.14]" radius="4000" editable="true"></shape>
+                            <shape id="image" name="image" url="https://www.lib.utexas.edu/maps/historical/newark_nj_1922.jpg"
+                                   bounds="[[40.71,-74.22],[40.77,-74.12]]" opacity="0.7" clickable="true"></shape>
+                        </map>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- #end row -->
+    </div> <!-- #end page wrap -->
+</div> 
+
+
+<!-- Scripts-->
+@Scripts.Render("~/scripts/app.js")
+@Scripts.Render("~/scripts/maps.init.js")

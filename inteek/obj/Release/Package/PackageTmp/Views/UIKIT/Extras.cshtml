@@ -1,0 +1,330 @@
+﻿@{
+    ViewBag.Title = "Extras";
+}
+
+<div class="page page-ui-extras">
+
+    <ol class="breadcrumb breadcrumb-small">
+        <li>UI Kit</li>
+        <li class="active"><a href="ui.extras.html">Extras</a></li>
+    </ol>
+
+    <div class="page-wrap">
+
+        <!-- row -->
+        <div class="row">
+            <!-- alerts -->
+            <div class="col-md-6 col-sm-12">
+                <div class="panel panel-default panel-hovered panel-stacked mb20">
+                    <div class="panel-heading">Alerts</div>
+                    <div class="panel-body">
+                        <div class="alert alert-warning">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div><strong>Warning:</strong> Backup all your drive.</div>
+                        </div>
+                        <div class="alert alert-danger">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div>Oh snap! Change a few things up and try submitting again.</div>
+                        </div>
+                        <div class="alert alert-success">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div>Well done! You successfully read this important alert message.</div>
+                        </div>
+                        <div class="alert alert-info">
+                            <button type="button" class="close" data-dismiss="alert">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div><strong>Info:</strong> You have got mail.</div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- #end alerts -->
+
+            <div class="col-md-6 col-sm-12">
+                <div class="panel panel-default panel-hovered panel-stacked mb20">
+                    <div class="panel-heading">Labels</div>
+                    <div class="panel-body">
+                        <div class="clearfix mb15">
+                            <p>Add the <code>.label</code> class with optional color class to create a label.</p>
+                            <label class="label label-default">Default</label>
+                            <label class="label label-primary">Primary</label>
+                            <label class="label label-success">Success</label>
+                            <label class="label label-info">Info</label>
+                            <label class="label label-warning">Warning</label>
+                            <label class="label label-danger">Danger</label>
+                            <label class="label label-pink">Pink</label>
+                            <label class="label label-purple">Purple</label>
+                        </div>
+                        <div class="clearfix">
+                            <p>Add the <code>.badge</code> class on inline element with optional color class to create a badge.</p>
+                            <span class="badge badge-primary badge-xs">new</span>
+                            <span class="badge badge-danger badge-xs circle">3</span>
+                            <span class="badge badge-info badge-xs flat">flat</span>
+                            <span class="badge badge-warning badge-xs">5</span>
+                            <span class="badge badge-success badge-xs">10</span>
+                            <span class="badge badge-pink">size</span>
+                            <span class="badge badge-purple badge-xs">20</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #end row -->
+        <!-- row -->
+        <div class="row">
+            <!-- tooltips -->
+            <div class="col-md-6 col-sm-12">
+                <div class="panel panel-default panel-hovered panel-stacked mb20">
+                    <div class="panel-heading">Tooltips</div>
+                    <div class="panel-body">
+                        <p>
+                            Tincidunt lobortis feugiat vivamus at dynamic eget arcu dictum varius duis at consectetur
+                            <a href="javascript:;" data-placement="top" title="on the top" data-toggle="tooltip"><strong>top</strong></a> stet doming platonem ex, at causae aliquam his, ne docendi luptatum voluptatum eam.
+                            Vitae elementum curabitur <a href="#" tooltip-placement="bottom" tooltip="on the bottom"><strong>bottom</strong></a>
+                            nunc sed velit dignissim sodales ut eu sem integer
+                            <a href="javascript:;" data-placement="left" title="on the left" data-toggle="tooltip"><strong>left</strong></a>
+                            sed velit dignissim sodales ut eu sem integer vitae arcu
+                            <a href="javascript:;" data-placement="right" title="on the right" data-toggle="tooltip"><strong>right</strong></a>
+                            varius duis at consectetur
+                            <a href="javascript:;" data-placement="top" data-delay="1000" title="appears with delay" data-toggle="tooltip"><strong>delayed</strong></a>
+                            turpis massa tincidunt dui ut. Tincidunt lobortis feugiat vivamus at left eget arcu dictum varius duis at consectetur lorem.
+                        </p>
+                        <p>I can even contain HTML. <a href="javascript:;" data-placement="top" data-html="true" title="Hey! I am <strong>bold</strong>" data-toggle="tooltip"><strong>Check me out!</strong></a></p>
+                    </div>
+                </div> <!-- #end panel -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="col-md-6 col-sm-12" ng-controller="PaginationDemoCtrl">
+                <div class="panel panel-default panel-hovered panel-stacked mb20">
+                    <div class="panel-heading">Pagination</div>
+                    <div class="panel-body">
+                        <nav>
+                            <ul class="pagination">
+                                <li>
+                                    <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li class="active"><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!-- pagination small -->
+                        <nav>
+                            <ul class="pagination pagination-sm">
+                                <li>
+                                    <a href="#" aria-label="Previous">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li class="active"><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                    <a href="#" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                        <!-- aligned links -->
+                        <nav>
+                            <ul class="pager">
+                                <li class="previous"><a href="#"><span aria-hidden="true">&laquo;</span> Prev</a></li>
+                                <li class="next"><a href="#">Next <span aria-hidden="true">&raquo;</span></a></li>
+                            </ul>
+                        </nav>
+                        <hr />
+                        <!-- pagination with all option -->
+                        <nav>
+                            <ul class="pagination pagination-sm">
+                                <li class="disabled"><a href="#">First</a></li>
+                                <li><a href="#">Previous</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li class="active"><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">...</a></li>
+                                <li><a href="#">Next</a></li>
+                                <li><a href="#">Last</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- #end row -->
+        <!-- row -->
+        <div class="row">
+            <!-- List Groups -->
+            <div class="col-sm-12">
+                <div class="panel panel-default panel-hovered panel-stacked mb30">
+                    <div class="panel-heading">List Groups</div>
+                    <div class="panel-body">
+                        <!-- inner row -->
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <p class="small text-muted text-uppercase text-bold mb15">Simple List Group</p>
+                                <ul class="list-group">
+                                    <li class="list-group-item">Cras justo odio</li>
+                                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                                    <li class="list-group-item">Morbi leo risus</li>
+                                    <li class="list-group-item">Porta ac consectetur ac</li>
+                                    <li class="list-group-item">Vestibulum at eros</li>
+                                </ul>
+                            </div>  <!-- #end col -->
+
+                            <div class="col-md-4 col-sm-6">
+                                <p class="small text-muted text-uppercase text-bold mb15">With Labels and Links</p>
+                                <div class="list-group">
+                                    <a href="javascript:;" class="list-group-item active">
+                                        Cras justo odio
+                                        <span class="badge right badge-sm">24</span>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item">
+                                        Dapibus ac facilisis in
+                                        <span class="badge right badge-sm badge-success">14</span>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item">
+                                        Morbi leo risus
+                                        <span class="badge badge-sm right badge-danger">11</span>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item">
+                                        Porta ac consectetur ac
+                                        <span class="badge badge-sm right circle badge-info">8</span>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item">
+                                        Vestibulum at eros
+                                        <span class="badge badge-sm right badge-pink">22%</span>
+                                    </a>
+                                </div>
+                            </div> <!-- #end col -->
+
+                            <div class="col-md-5 col-sm-12">
+                                <p class="small text-muted text-uppercase text-bold mb15">With Description</p>
+                                <div class="list-group">
+                                    <a href="javascript:;" class="list-group-item">
+                                        <h4 class="list-group-item-heading">Readymade banjo wayfarers</h4>
+                                        <p class="list-group-item-text">Vel nunc at metus nunc ornare nisl, nostra dictum, et sed mauris, in vulputate urna a nec in.</p>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-success">
+                                        <h4 class="list-group-item-heading">Organic literally readymade</h4>
+                                        <p class="list-group-item-text">Tumblr DIY leggings fanny pack. Heirloom occupy messenger bag typewriter DIY try-hard.</p>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item">
+                                        <h4 class="list-group-item-heading">American Apparel</h4>
+                                        <p class="list-group-item-text">Vel nunc at metus nunc ornare nisl.</p>
+                                    </a>
+                                </div>
+                            </div> <!-- #end col -->
+
+
+                        </div> <!-- #end inner row -->
+                    </div> <!-- #end panel-body -->
+                </div> <!-- #end panel -->
+            </div> <!-- #end col -->
+        </div>
+        <!-- #end row -->
+        <!-- row -->
+        <div class="row">
+            <!-- media object -->
+            <div class="col-md-6 col-sm-12">
+                <div class="panel panel-hovered panel-default panel-stacked mb30">
+                    <div class="panel-heading">Default Media</div>
+                    <div class="panel-body">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img src="@Url.Content("~/images/sample/1.jpg")" class="media-object" alt="media">
+                                ></a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Media heading</h4>
+                                <p>Pede elit auctor lorem est, praesent elementum praesent, cum donec eget suspendisse pellentesque.</p>
+                                <div class="media">
+                                    <div class="media-left">
+                                        <a href="#">
+                                            <img src="@Url.Content("~/images/sample/3.jpg")" class="media-object" alt="media">
+                                        ></a>
+                                    </div>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Nested Media heading</h4>
+                                        <p>Pede elit auctor lorem est, praesent elementum praesent, cum donec eget suspendisse pellentesque.</p>
+                                    </div>
+                                </div> <!-- #end media -->
+                            </div>
+                        </div> <!-- #end media -->
+                        <div class="media">
+                            <div class="media-body">
+                                <h4 class="media-heading">Media heading</h4>
+                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio.
+                            </div>
+                            <div class="media-right">
+                                <a href="#">
+                                    <img src="@Url.Content("~/images/sample/2.jpg")" class="media-object" alt="media">
+                                ></a>
+                            </div>
+                        </div> <!-- #end media -->
+
+                    </div> <!-- #end panel-body -->
+                </div> <!-- #end panel -->
+            </div> <!-- #end col -->
+            <!-- Wells -->
+            <div class="col-md-6 col-sm-12">
+                <div class="panel panel-hovered panel-default panel-stacked mb30">
+                    <div class="panel-heading">Wells</div>
+                    <div class="panel-body">
+                        <div class="well">
+                            Default well can be created by only <code>.well</code> class.
+                        </div>
+
+                        <div class="well well-lg">
+                            This is large well with large padding. Simply add <code>.well-lg</code> class.
+                        </div>
+
+                        <div class="well well-sm">
+                            Similarly this small well can be created with <code>.well-sm</code> class.
+                        </div>
+                    </div> <!-- #end panel-body -->
+                </div> <!-- #end panel -->
+            </div> <!-- #end col -->
+
+        </div>
+        <!-- #end row -->
+
+    </div> <!-- #end page-wrap -->
+</div>
+
+
+<!-- Scripts-->
+@Scripts.Render("~/scripts/app.js")
+
+<script>
+    // Initialize all tooltips, because tooltips are opt-in
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>

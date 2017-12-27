@@ -1,0 +1,128 @@
+﻿@{
+    ViewBag.Title = "Sparklines";
+}
+
+
+<div class="page page-charts-sparkline">
+
+    <ol class="breadcrumb breadcrumb-small">
+        <li>Charts</li>
+        <li class="active"><a href="#/charts/sparklines">Sparklines</a></li>
+    </ol>
+
+    <div class="page-wrap">
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-5">
+                <div class="panel mb30">
+                    <div class="panel-body">
+                        <h2 class="text-uppercase mt0 text-bold">Sparkline</h2>
+                        <p>
+                            Inline chart library (jQuery Version). Use options directly in html with <code>data-</code> as a prefix
+                            attribute.
+                        </p>
+                        <p><code>&lt;span class="sparkline" data-Type="pie"&gt;1,2,1&lt;/span&gt;</code>&nbsp; <span class="sparkline" data-width="1.5em" data-height="1.5em" data-type="pie">1,2,1</span></p>
+                        <a href="http://omnipotent.net/jquery.sparkline" class="btn btn-large btn-pink text-uppercase" target="_blank">See Doc</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="panel mb30 panel-lined">
+                    <!-- <div class="panel-heading">Types</div> -->
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="col-md-4">Chart</th>
+                                <th>Type</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td><span class="sparkline" data-linecolor="red">8,4,0,0,0,0,1,4,4,10,10,10,10,0,0,0,4,6,5,9,10</span></td>
+                                <td>Inline line graphs</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="sparkline" data-type="bar">10,8,9,3,5,8,5</span>&nbsp;
+                                    <span class="sparkline" data-type="bar">-3,1,2,0,3,-1</span>&nbsp;
+                                    <span class="sparkline" data-type="bar">0:2, 2:4, 4:2, 4:1</span>
+                                </td>
+                                <td>Bar graphs with negative and stacked</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <span class="sparkline" data-type="pie" data-slicecolors="[#e88,#dd4477,#0099c6]">5, 4, 2</span>&nbsp;
+                                    <span class="sparkline" data-type="pie" data-slicecolors="[#4CAF50,#eee]">5, 3</span>
+                                </td>
+                                <td>Pie graphs</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <span class="sparkline" data-type="discrete" data-linecolor="#e02828">4,6,7,7,4,3,2,1,4,4,5,7,3,1,5</span>
+                                </td>
+                                <td>Discrete graph</td>
+                            </tr>
+                            <tr>
+                                <td><span class="sparkline" data-type="bullet">10,12,12,9,7</span>
+                                <td>Bullet graph</td>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- #end row -->
+        <!-- row -->
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default panel-hovered panel-stacked mb30">
+                    <div class="panel-heading">Large Pie Chart</div>
+                    <div class="panel-body text-center">
+                        <span class="sparkline" data-type="pie" data-slicecolors="[#4CAF50,#38B4EE,#eee]" data-width="8em" data-height="8em">3, 4, 2</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default panel-hovered panel-stacked mb30">
+                    <div class="panel-heading">Large Line Chart</div>
+                    <div class="panel-body text-center">
+                        <span class="sparkline" data-type="line" data-width="8em" data-height="8em" data-fillcolor="transparent" data-linecolor="#4CAF50">8,4,0,0,0,0,1,4,4,10,10,0,0,0,4,6,5,9,10</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default panel-hovered panel-stacked mb30">
+                    <div class="panel-heading">Large Bar Chart</div>
+                    <div class="panel-body text-center">
+                        <span class="sparkline" data-type="bar" data-width="8em" data-height="8em" data-barcolor="#4CAF50">8,4,0,0,0,0,1,4,4,10,10,0,0,0,4,6,5,9,10</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default panel-hovered panel-stacked mb30">
+                    <div class="panel-heading">Large Box Chart</div>
+                    <div class="panel-body text-center">
+                        <span class="sparkline" data-type="box" data-boxfillcolor="#4CAF50" data-width="8em" data-height="8em">4,27,34,52,54,59,61,68,78,82,85,87,91,93,100 </span>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+        <!-- #end row -->
+    </div> <!-- #end page-wrap -->
+</div>
+
+
+
+<!-- Scripts -->
+@Scripts.Render("~/scripts/app.js")
+@Scripts.Render("~/scripts/sparklines.init.js")
+
+

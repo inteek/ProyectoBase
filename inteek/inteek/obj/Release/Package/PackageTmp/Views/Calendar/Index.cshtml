@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Calendar";
+}
+
+<!-- Styles Plugins -->
+@Styles.Render("~/styles/plugins/fullcalendar.css")
+
+
+<!-- Calendar page -->
+<div class="page page-app-calendar">
+
+    <ol class="breadcrumb breadcrumb-small">
+        <li>Apps</li>
+        <li class="active"><a href="calendar.html">Calendar</a></li>
+    </ol>
+
+
+    <div class="page-wrap">
+
+        <!-- row -->
+        <div class="row">
+            <div class="col-sm-9">
+                <!-- calendar toolbar, this will replaced default toolbar -->
+                <div class="calendar-toolbar mb20 text-center">
+                    <div class="btn-group btn-group-sm left">
+                        <button type="button" class="btn btn-default ion ion-arrow-left-c prev-btn"></button>
+                        <button type="button" class="btn btn-default ion ion-arrow-right-c next-btn"></button>
+                    </div>
+                    <button type="button" class="btn btn-default btn-sm ml15 left today-btn">today</button>
+                    <strong class="text-uppercase current-date"></strong>
+                    <div class="btn-group btn-group-sm right">
+                        <button type="button" class="btn btn-default view-month">Month</button>
+                        <button type="button" class="btn btn-default view-week">Week</button>
+                        <button type="button" class="btn btn-default view-day">Day</button>
+                    </div>
+                </div>
+                <!-- calendar -->
+                <div id="fullCalendar"></div>
+            </div>
+
+            <div class="col-sm-3">
+                <button type="button" class="btn btn-pink btn-icon-inline btn-sm mb15 addEventBtn">
+                    <i class="ion ion-plus"></i>
+                    Add Event
+                </button>
+                <ul class="calevents list-unstyled" id="calevents">
+                    <!-- <li>
+                        <input class="event-name">
+                        <div class="event-date">{{event.humanDate}}</div>
+                        <div class="event-remove-icon ion ion-trash-a"></div>
+                    </li> -->
+                </ul>
+            </div>
+        </div> <!-- #end row -->
+
+    </div> <!-- #end page-wrap -->
+</div>
+<!-- #end calendar page -->
+
+
+<!-- Scripts -->
+@Scripts.Render("~/scripts/plugins/moment.min.js")
+@Scripts.Render("~/scripts/plugins/fullcalendar.min.js")
+@Scripts.Render("~/scripts/app.js")
+@Scripts.Render("~/scripts/calendar.init.js")
+
+

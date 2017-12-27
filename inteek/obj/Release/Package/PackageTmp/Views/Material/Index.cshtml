@@ -1,0 +1,312 @@
+﻿@{
+    ViewBag.Title = "Material";
+}
+<!-- material page -->
+<div class="page page-material">
+    <ol class="breadcrumb breadcrumb-small">
+        <li>Home</li>
+        <li class="active"><a href="material.html">Material</a></li>
+    </ol>
+
+    <div class="page-wrap">
+        <div class="row">
+
+            <!-- md buttons -->
+            <div class="col-md-6">
+                <h3 class="text-light">Buttons</h3>
+                <div class="panel panel-lined panel-hovered panel-stacked mb20">
+                    <div class="panel-body">
+                        <p class="small text-pink text-uppercase text-normal mb20">Flat</p>
+                        <section class="mb15">
+                            <button class="md-button">Simple</button>
+                            <button class="md-button md-primary md-no-ink">Primary (md-noink)</button>
+                            <button class="md-primary md-button" disabled>Disabled</button>
+                            <button class="md-button md-warn">Warn</button>
+                        </section>
+
+                        <p class="small text-pink text-uppercase text-normal mb20">Raised</p>
+                        <section class="mb15">
+                            <button class="md-raised md-button">Button</button>
+                            <button class="md-raised md-button md-primary">Primary</button>
+                            <button disabled class="md-raised md-button md-primary">Disabled</button>
+                            <button class="md-raised md-button md-warn">Warn</button>
+                        </section>
+
+                        <p class="small text-pink text-uppercase text-normal mb20">Icons</p>
+                        <section class="mb15">
+                            <button class="md-fab md-button">
+                                <i class="ion ion-android-settings"></i>
+                            </button>
+                            <button class="md-fab md-button md-primary">
+                                <i class="ion ion-social-android"></i>
+                            </button>
+                            <button class="md-fab md-button md-warn">
+                                <i class="ion ion-social-angular"></i>
+                            </button>
+                            <button class="md-fab md-accent md-button md-mini">
+                                <i class="ion ion-social-apple"></i>
+                            </button>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Whiteframe -->
+            <div class="col-md-6">
+                <h3 class="text-light">WhiteFrame</h3>
+                <div class="panel panel-lined mb20 panel-hovered">
+                    <div class="panel-body">
+                        <div class="md-whiteframe-z1 mb20 text-center" style="padding: 20px">
+                            <span>.md-whiteframe-z1</span>
+                        </div>
+                        <div class="md-whiteframe-z2 mb20 text-center" style="padding: 20px">
+                            <span>.md-whiteframe-z2</span>
+                        </div>
+                        <div class="md-whiteframe-z3 mb20 text-center" style="padding: 20px">
+                            <span>.md-whiteframe-z3</span>
+                        </div>
+                        <div class="md-whiteframe-z4 mb20 text-center" style="padding: 20px">
+                            <span>.md-whiteframe-z4</span>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- #end panel -->
+            </div>
+
+        </div>
+        <!-- #end row -->
+
+
+        <div class="row">
+            <!-- checkbox -->
+            <div class="col-md-6">
+                <h3 class="text-light">Checkbox</h3>
+                <div class="panel panel-lined panel-hovered panel-stacked mb20">
+                    <div class="panel-body">
+                        <div class="md-checkbox">
+                            <label>
+                                <input type="checkbox">
+                                <span>Checkbox 1</span>
+                            </label>
+                        </div>
+
+                        <div class="md-checkbox md-warn">
+                            <label>
+                                <input type="checkbox">
+                                <span>Checkbox 2 (warn)</span>
+                            </label>
+                        </div>
+
+                        <div class="md-checkbox">
+                            <label>
+                                <input type="checkbox" disabled>
+                                <span>Checkbox 3 (disabled)</span>
+                            </label>
+                        </div>
+
+                        <div class="md-checkbox">
+                            <label>
+                                <input type="checkbox" disabled checked>
+                                <span>Checkbox 4 (disabled, checked)</span>
+                            </label>
+                        </div>
+
+                        <div class="md-checkbox md-primary">
+                            <label>
+                                <input type="checkbox">
+                                <span>Checkbox 5 (md-primary)</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- radio -->
+            <!-- radio/switch -->
+            <div class="col-md-6">
+                <h3 class="text-light">Radios/Switches</h3>
+                <div class="panel panel-lined panel-hovered panel-stacked mb20">
+                    <div class="panel-body">
+                        <div class="col-md-6">
+                            <p class="mb15">Radios</p>
+                            <div class="md-radio md-primary">
+                                <label>
+                                    <input type="radio" name="radioDemo" checked>
+                                    <span>Apple</span>
+                                </label>
+                            </div>
+                            <div class="md-radio md-warn">
+                                <label>
+                                    <input type="radio" name="radioDemo">
+                                    <span>Banana</span>
+                                </label>
+                            </div>
+                            <div class="md-radio">
+                                <label>
+                                    <input type="radio" name="radioDemo">
+                                    <span>Mango</span>
+                                </label>
+                            </div>
+                            <div class="md-radio">
+                                <label>
+                                    <input type="radio" name="radioDemo">
+                                    <span>Orange</span>
+                                </label>
+                            </div>
+                            <div class="md-radio">
+                                <label>
+                                    <input type="radio" name="radioDemo">
+                                    <span>Pineapple</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <p class="mb15">Switches</p>
+                            <div class="md-switch">
+                                <label>
+                                    <input type="checkbox">
+                                    <span>switch 1 (default)</span>
+                                </label>
+                            </div>
+
+                            <div class="md-switch md-warn">
+                                <label>
+                                    <input type="checkbox">
+                                    <span>switch 2 (warn)</span>
+                                </label>
+                            </div>
+
+
+                            <div class="md-switch">
+                                <label>
+                                    <input type="checkbox" checked disabled>
+                                    <span>(disabled, active)</span>
+                                </label>
+                            </div>
+
+                            <div class="md-switch">
+                                <label>
+                                    <input type="checkbox" disabled>
+                                    <span>switch 4 (disabled)</span>
+                                </label>
+                            </div>
+
+                            <div class="md-switch md-primary">
+                                <label>
+                                    <input type="checkbox" checked>
+                                    <span>switch 5 (primary)</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- #end row -->
+
+
+        <div class="row">
+            <!-- input form -->
+            <div class="col-md-12">
+                <div class="panel panel-primary mb20 panel-hovered">
+                    <div class="panel-heading">Basic Usage</div>
+                    <div class="panel-body">
+
+                        <div class="clearfix">
+                            <div class="col-md-6">
+                                <div class="md-input-container">
+                                    <input value="Developer" type="text" class="md-input">
+                                    <label>Title</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="md-input-container">
+                                    <input value="lorem@ipsum.com" type="email" class="md-input">
+                                    <label>Email</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 clearfix">
+                            <div class="md-input-container">
+                                <input value="Google" type="text" class="md-input" disabled>
+                                <label>Company (Disabled)</label>
+                            </div>
+                        </div>
+
+
+                        <div class="clearfix">
+                            <div class="col-md-6">
+                                <div class="md-input-container md-float-label">
+                                    <input type="text" class="md-input">
+                                    <label>First Name</label>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="md-input-container md-float-label">
+                                    <input type="text" class="md-input">
+                                    <label>Last Name</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 clearfix">
+                            <div class="md-input-container">
+                                <input type="text" value="1600 Amphitheatre Pkwy" class="md-input">
+                                <label>Address</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 clearfix">
+                            <div class="md-input-container">
+                                <input type="text" placeholder="Address 2" class="md-input">
+                            </div>
+                        </div>
+
+
+                        <div class="clearfix">
+                            <div class="col-md-4">
+                                <div class="md-input-container">
+                                    <input type="text" placeholder="Mountain View" class="md-input">
+                                    <label>City</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="md-input-container">
+                                    <input type="text" placeholder="CA" class="md-input">
+                                    <label>State</label>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="md-input-container">
+                                    <input type="text" placeholder="12102" class="md-input">
+                                    <label>Postal Code</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="md-input-container">
+                                <textarea rows="5" class="md-input">Loves kittens, snowboarding, and can type at 130 WPM.</textarea>
+                                <label>Biography</label>
+                                <div class="md-char-counter">10/199</div>
+                            </div>
+                        </div>
+
+                    </div> <!-- #end panel-body -->
+                </div>
+            </div>
+        </div>
+        <!-- #end row -->
+    </div>
+    <!-- #end page-wrap -->
+</div>
+
+
+<!-- Scripts-->
+@Scripts.Render("~/scripts/app.js")

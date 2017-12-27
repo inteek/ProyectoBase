@@ -1,0 +1,164 @@
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\ApplicationInsights.config
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\csc.exe
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\System.Collections.Immutable.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\vbc.exe
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\VBCSCompiler.exe
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\roslyn\VBCSCompiler.exe.config
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\inteek.dll.config
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\inteek.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\inteek.pdb
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Antlr3.Runtime.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\EntityFramework.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\EntityFramework.SqlServer.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.Web.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.WindowsServer.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.ApplicationInsights.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.Google.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Web.Infrastructure.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Newtonsoft.Json.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Owin.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.Helpers.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.Mvc.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.Optimization.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.Razor.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.WebPages.Deployment.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.WebPages.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.WebPages.Razor.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\WebGrease.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.Web.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AI.WindowsServer.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.ApplicationInsights.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.Helpers.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.Mvc.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.Optimization.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.Razor.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.WebPages.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.WebPages.Deployment.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\System.Web.WebPages.Razor.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Antlr3.Runtime.pdb
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Newtonsoft.Json.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\EntityFramework.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\EntityFramework.SqlServer.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.Google.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\obj\Debug\inteek.dll
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\obj\Debug\inteek.pdb
+c:\users\virtualwin10\documents\visual studio 2015\Projects\inteek\inteek\obj\Debug\inteek.csprojResolveAssemblyReference.cache
+C:\Proyectos\inteek\inteek\bin\ApplicationInsights.config
+C:\Proyectos\inteek\inteek\bin\roslyn\csc.exe
+C:\Proyectos\inteek\inteek\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Proyectos\inteek\inteek\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Proyectos\inteek\inteek\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Proyectos\inteek\inteek\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Proyectos\inteek\inteek\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Proyectos\inteek\inteek\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Proyectos\inteek\inteek\bin\roslyn\System.Collections.Immutable.dll
+C:\Proyectos\inteek\inteek\bin\roslyn\System.Reflection.Metadata.dll
+C:\Proyectos\inteek\inteek\bin\roslyn\vbc.exe
+C:\Proyectos\inteek\inteek\bin\roslyn\VBCSCompiler.exe
+C:\Proyectos\inteek\inteek\bin\roslyn\VBCSCompiler.exe.config
+C:\Proyectos\inteek\inteek\bin\inteek.dll.config
+C:\Proyectos\inteek\inteek\bin\inteek.dll
+C:\Proyectos\inteek\inteek\bin\inteek.pdb
+C:\Proyectos\inteek\inteek\bin\Antlr3.Runtime.dll
+C:\Proyectos\inteek\inteek\bin\EntityFramework.dll
+C:\Proyectos\inteek\inteek\bin\EntityFramework.SqlServer.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.DependencyCollector.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.Web.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.WindowsServer.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.ApplicationInsights.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.Google.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.Web.Infrastructure.dll
+C:\Proyectos\inteek\inteek\bin\Newtonsoft.Json.dll
+C:\Proyectos\inteek\inteek\bin\Owin.dll
+C:\Proyectos\inteek\inteek\bin\System.Web.Helpers.dll
+C:\Proyectos\inteek\inteek\bin\System.Web.Mvc.dll
+C:\Proyectos\inteek\inteek\bin\System.Web.Optimization.dll
+C:\Proyectos\inteek\inteek\bin\System.Web.Razor.dll
+C:\Proyectos\inteek\inteek\bin\System.Web.WebPages.Deployment.dll
+C:\Proyectos\inteek\inteek\bin\System.Web.WebPages.dll
+C:\Proyectos\inteek\inteek\bin\System.Web.WebPages.Razor.dll
+C:\Proyectos\inteek\inteek\bin\WebGrease.dll
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.DependencyCollector.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.Web.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.AI.WindowsServer.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.ApplicationInsights.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Proyectos\inteek\inteek\bin\System.Web.Helpers.xml
+C:\Proyectos\inteek\inteek\bin\System.Web.Mvc.xml
+C:\Proyectos\inteek\inteek\bin\System.Web.Optimization.xml
+C:\Proyectos\inteek\inteek\bin\System.Web.Razor.xml
+C:\Proyectos\inteek\inteek\bin\System.Web.WebPages.xml
+C:\Proyectos\inteek\inteek\bin\System.Web.WebPages.Deployment.xml
+C:\Proyectos\inteek\inteek\bin\System.Web.WebPages.Razor.xml
+C:\Proyectos\inteek\inteek\bin\Antlr3.Runtime.pdb
+C:\Proyectos\inteek\inteek\bin\Newtonsoft.Json.xml
+C:\Proyectos\inteek\inteek\bin\EntityFramework.xml
+C:\Proyectos\inteek\inteek\bin\EntityFramework.SqlServer.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.Google.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Proyectos\inteek\inteek\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Proyectos\inteek\inteek\obj\Debug\inteek.csprojResolveAssemblyReference.cache
+C:\Proyectos\inteek\inteek\obj\Debug\inteek.dll
+C:\Proyectos\inteek\inteek\obj\Debug\inteek.pdb

@@ -1,0 +1,137 @@
+﻿@{
+    ViewBag.Title = "C3";
+}
+
+
+<div class="page page-charts-c3" ng-controller="c3ChartDemoCtrl">
+
+    <ol class="breadcrumb breadcrumb-small">
+        <li>Charts</li>
+        <li class="active"><a href="charts.c3.html">C3</a></li>
+    </ol>
+
+    <div class="page-wrap">
+
+        <!-- row -->
+        <div class="row">
+
+            <!-- Line Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Line Chart</div>
+                    <div class="panel-body">
+                        <div id="c3chartline"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Spline Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Spline Chart</div>
+                    <div class="panel-body">
+                        <div id="c3chartspline"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Step Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Step Chart</div>
+                    <div class="panel-body">
+                        <div id="c3chartstep"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Bar Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Bar Chart</div>
+                    <div class="panel-body">
+                        <div id="c3chartbar"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Area Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Area Chart</div>
+                    <div class="panel-body">
+                        <div id="c3chartarea"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Stacked Bar Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Stacked Bar Chart</div>
+                    <div class="panel-body">
+                        <div id="c3chartstackedbar"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Pie Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Pie Chart</div>
+                    <div class="panel-body">
+                        <div id="c3chartpie"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Donut Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Donut Chart</div>
+                    <div class="panel-body">
+                        <div id="c3chartdonut"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- #end row -->
+        <!-- Additions - easypiechart -->
+        <div class="row">
+            <div class="col-sm-12">
+                <alert type="warning">
+                    <p>Addition: Easy Pie chart by rendro. See doc <a href="http://rendro.github.io/easy-pie-chart/" target="_blank">here</a></p>
+                </alert>
+            </div>
+            <!-- Easy Pie Chart -->
+            <div class="col-md-6">
+                <div class="panel panel-default panel-stacked panel-hovered mb30">
+                    <div class="panel-heading">Easy Pie Chart</div>
+                    <div class="panel-body">
+                        <div data-percent="80" class="easypiechart" id="easypiechartDemo">
+                            <div class="data">
+                                <strong class="xsmall">80%</strong>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> <!-- #end row -->
+
+
+    </div> <!-- #end page wrap -->
+</div>
+
+
+<!-- Scripts -->
+@Scripts.Render("~/scripts/app.js")
+@Scripts.Render("~/scripts/c3.init.js");
+
+

@@ -1,0 +1,274 @@
+﻿@{
+    ViewBag.Title = "Notificaciones";
+}
+
+
+
+@Styles.Render("~/styles/plugins/select2.css")
+
+
+<!-- dashboard page -->
+<div class="page page-dashboard">
+
+    <div class="page-wrap">
+
+        <!-- dashboard header -->
+       <!--  <div class="row">
+            <div class="col-md-12">
+                <div class="dash-head clearfix mt15 mb20">
+                    <div class="left">
+                        <h4 class="mb5 text-light">Welcome to Materia</h4>
+                        <p class="small"><strong>AngularJS</strong> admin app</p>
+                    </div>
+                    <div class="right mt10">
+                        <span data-type="bar" data-barcolor="#4CAF50" class="sparkline">10,8,4,10,7,0,3,4,6,5,9,12,9</span>
+                        <h5 class="text-bold mb0 mt5">$1,33,404</h5>
+                    </div>
+                </div>
+            </div>
+        </div> #end row -->
+
+
+        <!-- mini boxes 
+        <div class="row">
+
+            <div id="tabViewNotifica" class="col-md-4 col-sm-6 tabView" style="cursor:pointer" onclick="JavaScript:SelectTabView(this);">
+                <div class="panel panel-default mb20 mini-box panel-hovered">
+                    <div class="panel-body">
+                        <div class="clearfix">
+                            <div class="info left">
+                                <h4 class="mt0 text-primary text-bold">NOTIFICACIONES</h4>
+                                <h5 class="text-light mb0">Enviar Notificaciones</h5>
+                            </div>
+                            <div class="right"> <img width="65%" height="65%" src="@Url.Content("~/images/Paper Plane-50.png")" /></div>
+                        </div>
+                    </div>
+                    <div class="panel-footer clearfix panel-footer-sm panel-footer-primary">
+                        <p class="mt0 mb0 left" style="height:15px"></p>
+                    </div>
+                </div>
+            </div>
+
+           <!-- <div class="col-md-3 col-sm-6">
+                <div class="panel panel-default mb20 mini-box panel-hovered">
+                    <div class="panel-body">
+                        <div class="clearfix">
+                            <div class="info left">
+                                <h4 class="mt0 text-success text-bold">320K+</h4>
+                                <h5 class="text-light mb0">Page Views</h5>
+                            </div>
+                            <div class="right ion ion-ios-people-outline icon"></div>
+                        </div>
+                    </div>
+                    <div class="panel-footer clearfix panel-footer-sm panel-footer-success">
+                        <p class="mt0 mb0 left">% change</p>
+                        <span class="right sparkline" data-type="bar" data-barcolor="#fff" data-width="1.15em" data-height="1.15em">3,5,9,8,6,10</span>
+                    </div>
+                </div>
+            </div>-->
+     <!--
+            <div id="tabViewSolicita" class="col-md-4 col-sm-6 tabView" style="cursor:pointer" onclick="JavaScript:SelectTabView(this);">
+                <div class="panel panel-default mb20 mini-box panel-hovered">
+                    <div class="panel-body">
+                        <div class="clearfix">
+                            <div class="info left">
+                                <h4 class="mt0 text-info text-bold">SOLICITUDES</h4>
+                                <h5 class="text-light mb0">Enviar Solicitudes</h5>
+                            </div>
+                            <div class="right"> <img width="65%" height="65%" src="@Url.Content("~/images/Pricing Structure-50.png")" /></div>
+                        </div>
+                    </div>
+                    <div class="panel-footer clearfix panel-footer-sm panel-footer-info">
+                        <p class="mt0 mb0 left" style="height:15px"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tabViewRespuesta" class="col-md-4 col-sm-6 tabView" style="cursor:pointer" onclick="JavaScript:SelectTabView(this);">
+                <div class="panel panel-default mb20 mini-box panel-hovered">
+                    <div class="panel-body">
+                        <div class="clearfix">
+                            <div class="info left">
+                                <h4 class="mt0 text-info text-bold">RESPUESTAS</h4>
+                                <h5 class="text-light mb0">Respuestas de Solicitudes Enviadas</h5>
+                            </div>
+                            <div class="right"> <img width="65%" height="65%" src="@Url.Content("~/images/Message-50.png")" /></div>
+                        </div>
+                    </div>
+                    <div class="panel-footer clearfix panel-footer-sm panel-footer-info">
+                        <p class="mt0 mb0 left" style="height:15px"></p>
+                    </div>
+                </div>
+            </div>
+            
+       <!--  </div> #end row -->
+       
+        <!-- row -->
+        <div class="row">
+           
+
+            <!-- col-left -->
+            <div class="col-md-7">
+                <div class="panel panel-default panel-hovered panel-stacked mb30">
+                    <div class="panel-heading">Enviar Notificaciones</div>
+                    <div class="panel-body" style="margin-left:40px; margin-right:40px">
+                        <form role="form" class="form-horizontal" action="javascript:;">
+
+                            <div class="form-group">
+                                <label class="control-label">Titulo</label>
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+
+                            <!-- form horizontal acts as a row -->
+                            <!-- normal control -->
+                            <div class="form-group" style="margin-top:35px;">
+                                <label class="control-label">Mensaje</label>
+                                <input type="text" class="form-control">
+                            </div>
+
+                            <!-- with hint -->
+                            <div class="form-group" style="margin-top:35px;">
+                                <label control-label">Badge</label>
+                                <input type="text" class="form-control" placeholder="">
+                            </div>
+
+                          
+
+                            
+
+                            <!-- textarea control -->
+                            <div class="form-group" style="margin-top:35px;">
+                                <label class="control-label">Plataforma</label>
+                                <select id="multiSelect2" style="width: 100%" data-tags="true" multiple="multiple">
+                                    <option value="1">Android</option>
+                                    <option value="2">iOS</option>
+                                </select>
+                            </div>
+
+                            <!-- native select
+                            <div class="form-group" style="margin-top:35px;">
+                                <label class="control-label">Usuario</label>
+                                <select id="multiSelect" style="width: 100%" data-tags="true" multiple="multiple">
+                                    <option value="1">Armando</option>
+                                    <option value="2">Daniel</option>
+                                    <option value="3">Cristian</option>
+                                    <option value="4">Ernesto</option>
+                                    <option value="5">Sinhue</option>
+                                </select>
+                            </div> -->
+                           
+
+
+                            <ul class="user-badges list-unstyled row" style="margin-top:35px; margin-left:-20px">
+                                <li class="col-xs-4">
+                                    <div class="form-group" >
+                                        <label class="col-md-1 control-label">Vibración</label>
+                                        <div class="ui-toggle ui-toggle-primary" >
+                                            <div class="col-md-6" style="margin-left:50px">
+                                                <label class="ui-toggle-inline">
+                                                    <input type="checkbox" name="toggleEg">
+                                                    <span></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-xs-4">
+                                    <div class="form-group" >
+                                        <label class="col-md-1 control-label">Timbre</label>
+                                        <div class="ui-toggle ui-toggle-primary">
+                                            <div class="col-md-6" style="margin-left:50px">
+                                                <label class="ui-toggle-inline">
+                                                    <input type="checkbox" name="toggleEg">
+                                                    <span></span>
+                                                </label>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+
+                            <!-- Disabled control -->
+                           
+
+                            
+
+                            <div class="clearfix right">
+                                <button class="btn btn-primary mr5" type="submit">Enviar</button>
+                                <button class="btn btn-default">Cancelar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- #end col-left -->
+            <!-- col-right -->
+
+            <div class="col-md-5">
+                <div class="panel panel-default mb20 activities" >
+                    <div class="panel-heading">Actividades</div>
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li class="primary">
+                                <span class="point"></span>
+                                <span class="time small text-muted">17/10/2016 </span>
+                                <span class="time small text-muted" style="font-size:small">&nbsp;&nbsp;&nbsp;03:14:24 .hrs</span>
+                                <p>Junta Directiva</p>
+                            </li>
+                            <li class="primary"> <!---success-->
+                                <span class="point"></span>
+                                <span class="time small text-muted">17/10/2016 </span>
+                                <span class="time small text-muted" style="font-size:small">&nbsp;&nbsp;&nbsp;02:45:44 .hrs</span>
+                                <p>Junta Directiva</p>
+                            </li>
+                            <li class="primary"> <!---warning-->
+                                <span class="point"></span>
+                                <span class="time small text-muted">17/10/2016 </span>
+                                <span class="time small text-muted" style="font-size:small">&nbsp;&nbsp;&nbsp;02:16:18 .hrs</span>
+                                <p>Junta Directiva</p>
+                            </li>
+                            <li class="primary"> <!---info-->
+                                <span class="point"></span>
+                                <span class="time small text-muted">17/10/2016 </span>
+                                <span class="time small text-muted" style="font-size:small">&nbsp;&nbsp;&nbsp;01:52:23 .hrs</span>
+                                <p>Junta Directiva</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- #end recent activities -->
+
+
+            
+        </div> <!-- #end row -->
+        <!-- row -->
+        <div class="row">
+
+
+        </div>
+        <!-- #end row -->
+        <!-- row -->
+        <div class="row">
+
+          
+        </div> <!-- #end row -->
+
+    </div> <!-- #end page-wrap -->
+</div>
+<!-- #end dashboard page -->
+
+
+<!-- Scripts-->
+@Scripts.Render("~/scripts/app.js")
+@Scripts.Render("~/scripts/index.init.js")
+
+
+
+
+
+
+
+
